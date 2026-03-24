@@ -51,9 +51,9 @@ const Feedbacks = () => {
   }, [index]);
 
   return (
-    <section className="w-full bg-[#ECEBE6] py-16 lg:py-0 px-6 overflow-hidden">
+    <section className="w-full bg-[#ECEBE6] py-16 lg:py-0 lg:mb-50 px-6 overflow-hidden">
       {/* Título */}
-      <h1 className="text-4xl lg:text-[3rem] xl:text-[4rem] 2xl:text-[4.5rem] font-bold text-[#002325] text-center mb-12 leading-tight">
+      <h1 className="text-4xl lg:text-[3rem] xl:text-[4rem] 2xl:text-[4.5rem] font-bold text-[#002325] text-center mb-12 leading-tight animate-fade-up animate-duration-1000 animate-delay-700 animate-ease-in">
         Real Stories. <br /> Real Results
       </h1>
 
