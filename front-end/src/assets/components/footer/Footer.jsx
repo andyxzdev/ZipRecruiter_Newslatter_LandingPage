@@ -5,9 +5,7 @@ import Logo from "../../logo/logo1.svg";
 function Footer() {
   return (
     <footer className="w-full bg-[#002325] text-white px-8 md:px-16 pt-16 pb-8 flex flex-col gap-12">
-      {/* Top section */}
       <div className="flex flex-col md:flex-row justify-between gap-12">
-        {/* Left — Logo + tagline + socials */}
         <div className="flex flex-col gap-6 max-w-xs">
           <img
             src={Logo}
@@ -25,9 +23,7 @@ function Footer() {
               href="#"
               aria-label="Instagram"
               className="hover:text-[#4ADE80] transition-colors"
-            >
-              {/* <Instagram size={22} /> */}
-            </a>
+            ></a>
             <a
               href="#"
               aria-label="LinkedIn"
@@ -45,24 +41,35 @@ function Footer() {
           </div>
         </div>
 
-        {/* Right — Links */}
         <div className="flex gap-16 flex-wrap">
           {/* For Job Seekers */}
           <div className="flex flex-col gap-3">
             <h4 className="font-bold text-white text-sm">For Job Seekers</h4>
             <ul className="flex flex-col gap-2 text-white/60 text-sm">
               <li>
-                <a href="#" className="hover:text-[#4ADE80] transition-colors">
+                <a
+                  href="https://www.ziprecruiter.ie/"
+                  target="_blank"
+                  className="hover:text-[#4ADE80] transition-colors"
+                >
                   Search Jobs
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#4ADE80] transition-colors">
+                <a
+                  href="https://www.ziprecruiter.ie/profiles/sign_up"
+                  target="_blank"
+                  className="hover:text-[#4ADE80] transition-colors"
+                >
                   Create Free Account
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#4ADE80] transition-colors">
+                <a
+                  href="support@ziprecruiter.ie"
+                  target="_blank"
+                  className="hover:text-[#4ADE80] transition-colors"
+                >
                   Support
                 </a>
               </li>
@@ -74,12 +81,20 @@ function Footer() {
             <h4 className="font-bold text-white text-sm">Company</h4>
             <ul className="flex flex-col gap-2 text-white/60 text-sm">
               <li>
-                <a href="#" className="hover:text-[#4ADE80] transition-colors">
+                <a
+                  href="https://www.ziprecruiter.ie/about"
+                  target="_blank"
+                  className="hover:text-[#4ADE80] transition-colors"
+                >
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#4ADE80] transition-colors">
+                <a
+                  href="https://www.ziprecruiter.ie/corporate-responsibility"
+                  target="_blank"
+                  className="hover:text-[#4ADE80] transition-colors"
+                >
                   Corporate Responsibility
                 </a>
               </li>
@@ -126,19 +141,35 @@ function Footer() {
         </a>
 
         <div className="flex flex-wrap justify-center gap-3 text-white/50 text-xs">
-          <a href="#" className="hover:text-white transition-colors">
+          <a
+            href="https://www.ziprecruiter.ie/privacy"
+            target="_blank"
+            className="hover:text-white transition-colors"
+          >
             Privacy Policy
           </a>
           <span>|</span>
-          <a href="#" className="hover:text-white transition-colors">
+          <a
+            href="https://www.ziprecruiter.ie/terms"
+            target="_blank"
+            className="hover:text-white transition-colors"
+          >
             Terms of Use
           </a>
           <span>|</span>
-          <a href="#" className="hover:text-white transition-colors">
+          <a
+            href="https://www.ziprecruiter.global/en/cookie_policy"
+            target="_blank"
+            className="hover:text-white transition-colors"
+          >
             Cookie Policy
           </a>
           <span>|</span>
-          <a href="#" className="hover:text-white transition-colors">
+          <a
+            href="https://www.ziprecruiter.global/en/job-rules"
+            target="_blank"
+            className="hover:text-white transition-colors"
+          >
             Job Posting Rules
           </a>
         </div>

@@ -1,8 +1,8 @@
 @import "tailwindcss";
-@import "tailwindcss-animated";
 
 @layer base {
   html {
     overflow-x: hidden;
+    scroll-behavior: smooth;
   }
 }

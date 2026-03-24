@@ -51,23 +51,18 @@ const Feedbacks = () => {
   }, [index]);
 
   return (
-    <section className="w-full bg-[#ECEBE6] py-16 lg:py-0 lg:mb-50 px-6 overflow-hidden">
-      {/* Título */}
+    <section className="w-full bg-[#ECEBE6] py-16 lg:pb-15 lg:mb-0 px-6 overflow-hidden">
       <h1 className="text-4xl lg:text-[3rem] xl:text-[4rem] 2xl:text-[4.5rem] font-bold text-[#002325] text-center mb-12 leading-tight animate-fade-up animate-duration-1000 animate-delay-700 animate-ease-in">
         Real Stories. <br /> Real Results
       </h1>
-
-      {/* Carrossel */}
       <div className="relative flex items-center justify-center">
-        {/* Seta esquerda */}
         <button
           onClick={prev}
-          className="absolute left-0 z-10 text-[#002325] text-2xl px-2 hover:scale-110 transition"
+          className="absolute left-0 z-10 text-[#002325] text-2xl px-2 hover:scale-110 transition cursor-pointer"
         >
           ←
         </button>
 
-        {/* Track */}
         <div className="w-full overflow-hidden px-10 lg:mt-15">
           <div ref={trackRef} className="flex gap-8 lg:justify-between lg:px-7">
             {feedbacks.map((item, i) => (
@@ -75,7 +70,6 @@ const Feedbacks = () => {
                 key={i}
                 className="card min-w-[300px] max-w-[320px] lg:w-full bg-white rounded-xl p-6 flex flex-col gap-4 shadow-sm"
               >
-                {/* Avatar + Nome */}
                 <div className="flex items-center gap-3">
                   <img
                     src={item.avatar}
@@ -92,12 +86,10 @@ const Feedbacks = () => {
                   </div>
                 </div>
 
-                {/* Texto */}
                 <p className="text-sm text-[#002325] lg:text-[1rem]">
                   {item.text}
                 </p>
 
-                {/* Estrelas */}
                 <div className="flex gap-1 text-yellow-400 text-base">
                   {"★★★★★"}
                 </div>
@@ -106,10 +98,9 @@ const Feedbacks = () => {
           </div>
         </div>
 
-        {/* Seta direita */}
         <button
           onClick={next}
-          className="absolute right-0 z-10 text-[#002325] text-2xl px-2 hover:scale-110 transition"
+          className="absolute right-0 z-10 text-[#002325] text-2xl px-2 hover:scale-110 transition cursor-pointer"
         >
           →
         </button>
