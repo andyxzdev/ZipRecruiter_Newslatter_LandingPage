@@ -40,7 +40,7 @@ const App = () => {
   const rotate = useTransform(scrollYProgress, [0, 1], [-175, 135]);
 
   return (
-    <main>
+    <main className="overflow-x-hidden">
       <section
         className="relative w-full h-[90vh] lg:h-[80vh] flex flex-col items-center lg:items-start justify-start lg:justify-center lg:pl-30 bg-cover bg-center bg-no-repeat px-3
 
