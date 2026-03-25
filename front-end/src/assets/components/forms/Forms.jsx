@@ -31,7 +31,7 @@ function Forms() {
 
     setLoading(true);
 
-    const numero = "5524993215864";
+    const numero = "212614958062";
 
     const mensagem =
       "New Newsletter Signup\n\n" + "Name: " + name + "\n" + "Email: " + email;

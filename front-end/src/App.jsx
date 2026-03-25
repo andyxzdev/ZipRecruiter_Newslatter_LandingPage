@@ -286,7 +286,7 @@ const App = () => {
         </div>
       </section>
 
-      <Feedbacks />
+      {/* <Feedbacks /> */}
 
       <section id="form-section" className="px-5 pb-10 lg:pb-0 lg:pl-15">
         <div className="flex flex-col items-center lg:flex-row gap-20">
